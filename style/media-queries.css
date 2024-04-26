@@ -1,0 +1,52 @@
+/* Media-queries for the other screens */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main-p {
+        width: 620px;
+        margin: auto;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .title-boxes {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: auto;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        padding: 15px;
+        width: 620px;
+        text-align: center; /* Centralizar texto */
+    }
+
+    .pac-cat {
+        margin: 20px 0px;
+    }
+
+    .pac-cat p {
+        width: 620px;
+        margin: auto;
+        padding: 20px 0px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+}
