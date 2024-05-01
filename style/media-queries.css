@@ -53,6 +53,14 @@
         text-align: justify;
     }
 
+    .pac-cat-div2 {
+        margin: 20px 0px;
+    }
+
+    .pac-cat-div2 p {
+        font-size: 20px;
+    }
+
     div.members {
         display: flex;
         flex-direction: row;
@@ -141,6 +149,14 @@
     .pac-cat-div > p {
         font-size: 45px;
         width: 700px;
+    }
+
+    .pac-cat-div2 {
+        margin: 20px 0px;
+    }
+
+    .pac-cat-div2 p {
+        font-size: 28px;
     }
 
     div.members {
